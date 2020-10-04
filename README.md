@@ -1,1 +1,1 @@
-# Practica Frotend JS
+# Practica Frontend JS
