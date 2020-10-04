@@ -1,0 +1,237 @@
+/* background */
+
+.backIndex{
+    background-image:url('../img/admission-2974645_1280.jpg') ;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+
+body .user{
+    background-color: ghostwhite;
+    height: 100%;
+}
+
+
+body .login{
+    background-image:url('../img/fog-1535201_1920.jpg') ;
+    background-size: cover;
+    height: 100vh;
+}
+/* background */
+
+/* FUentes */
+@font-face {
+    font-family: "KG";
+    src: url("../font/Keith\ Gordon.ttf");
+}
+
+@font-face {
+    font-family: "Crowny";
+    src: url("../font/Crowny\ -\ Personal\ Use.otf");
+}
+
+
+@font-face {
+    font-family: "Dscript";
+    src: url("../font/DancingScript-VariableFont_wght.ttf");
+}
+
+/* FUentes */
+
+/* menu */
+
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 0px;
+    padding: 15px 40px 0 0;
+    
+}
+.menu li{
+    list-style: none;
+    padding: 0.3rem;
+
+}
+
+.menu li a{
+    font: bold 22px arial;
+    text-decoration: none;
+    color:#C4964F
+
+
+}
+
+/* menu */
+
+/*Formulario*/
+.form {
+    background-color: rgba(22, 22, 58, 0.534);
+    width: 500px;
+    margin: 1% auto 0 auto;
+    border: 6px solid rgba(53, 52, 52, 0.397) ;
+    border-radius: 15px;
+    padding: 0.5rem;
+}
+
+form .Itext input{
+    padding: 0.5rem;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+form .Itext select{
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    padding: 0.5rem;
+}
+.radio {
+    font:  21px arial;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 1rem;
+    margin-left: 1rem;
+
+}
+
+.radio  label{
+    
+    color: white;
+
+}
+.formSign .Itext {
+    display: flex;
+    flex-direction: column;
+}
+.formSign input[type='submit']{
+    align-self: center;
+    width: 25%;
+    font:  medium arial;
+    margin-bottom: 0.5rem;
+}
+
+.nodisplay {
+    display: none !important;
+}
+
+.errrPlaceholder::placeholder { /* error alerta placeholder */
+    color: red;
+    font-weight: bold;
+    padding-left: 2rem;
+}
+
+
+.errorMessage{ /* error en login */
+    margin-top: 1rem;
+    margin-left: 2rem;
+    color: red;
+    font-size: 1rem;
+}
+
+/*Formulario*/
+
+/* Lista Peliculas */
+.list{
+    margin: 2rem;
+    text-align: center;
+
+}
+.list dt{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.list dd{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+}
+
+.list input{
+    margin-bottom: 2rem;
+}
+
+.button{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-left:250px;
+    margin-right: 250px;
+}
+/* Lista Peliculas */
+
+.text p{
+    margin-block-start:0px;
+    text-align: center;
+    font-family: "Crowny";
+    color:#E8DCB9;
+    font-size: 120px;
+    padding-top: 25vh;
+    margin-bottom: 20%;
+    
+
+}
+footer{
+    margin-top: 15%;
+}
+footer .descriptFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.descriptFooter div *{
+    font-size: 25px;
+    font-weight: 800;
+    text-decoration: none;
+    color:#C4964F;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+
+.formLogIn{
+    background-color: rgba(162, 162, 202, 0.294);
+    width: 400px;
+    margin: 10% auto 0 auto;
+    border: 3px solid black ;
+    border-radius: 15px;
+    padding: 0.5rem;
+}
+
+.formLogIn .Itext{
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.formLogIn .textLog p{
+    margin-block-start:0px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-family: "Crowny";
+    color:#262569;
+    font-size: 60px;
+
+}
+
+.formSign >p{
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.formSign > p{
+    margin-block-start:0px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-family: "Crowny";
+    color:#262569;
+    font-size: 60px;
+
+}
